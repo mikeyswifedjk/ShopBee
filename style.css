@@ -1,0 +1,132 @@
+*{
+    scroll-behavior: smooth;
+}
+
+body{
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+    transition: background-color 0.5s ease;
+}
+
+.header {
+    background-color:black;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 1450px;
+    height: 150px;
+}
+
+.logo {
+    height: 100px;
+    width: 100px;
+    margin-top: 20px;
+    transition: all 0.5s ease;
+}
+
+.container-header {
+    position: absolute;
+    top: 0;
+    left: 130px;
+    width: 1200px;
+    height: 150px;
+    background-color:black;
+    transition: background-color 0.5s ease;
+}
+
+.shop {
+    position: absolute;
+    top: 40px;
+    left: 110px;
+    font-size: 75px;
+    color: white;
+    transition: all 0.5s ease;
+}
+
+.search-bar {
+    border-radius: 6px;
+    position: absolute;
+    top: 73px;
+    left: 530px;
+    width: 650px;
+    height: 30px;
+    border: none;
+}
+
+.search-button {
+    position: absolute;
+    top: 75px;
+    left: 1144px;
+    color: black;
+    height: 28px;
+    width: 38px;
+    background-color: #ffce00;
+    border: none;
+    border-radius: 6px;
+}
+
+.search-button:hover {
+    background-color: #ffac00;
+}
+
+.cart-button {
+    position: absolute;
+    top: 68px;
+    left: 85%;
+    font-size: 20px;
+    height: 40px;
+    width: 50px;
+    color: white;
+    background-color: black;
+    border-radius: 2px;
+    border: none;
+}
+
+.cart-button:hover {
+    color: #ffce00;
+}
+
+.nav-right a{
+    position:relative;
+    top:9px;
+    left: 1200px;
+    color: white;
+    padding:0 10px 0 10px;
+    text-decoration: none;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav-right span {
+    position:absolute;
+    top: 9px;
+    left: 1260px;
+    color: white;
+    padding-left: 10px;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.firstBanner .bannerOne{
+    position: absolute;
+    top: 165px;
+    left: 945px;  
+    vertical-align: middle;
+    height: 145px;
+    width: 385px;
+    transition: all 0.5s ease;
+    object-fit: cover;
+}
+
+.twoBanner .bannerTwo{
+    position: absolute;
+    top: 320px;
+    left: 945px;  
+    vertical-align: middle;
+    height: 145px;
+    width: 385px;
+    transition: all 0.5s ease;
+    object-fit: cover;
+}
